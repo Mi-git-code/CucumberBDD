@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.287" tests="2" skipped="0" failures="1" errors="0">
+<testcase classname="Ebay Home Page Scenarios" name="Advenced search Link" time="0.008">
+<system-out><![CDATA[
+Given I am on Ebay Home Page................................................passed
+When I click on Advenced Link...............................................passed
+Then I navigate to Advanced Search page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Ebay advamced Search Page" name="Ebay Logo on Advanced Seach Page" time="0.005">
+<failure/>
+<system-out><![CDATA[
+Given Ich bin auf Ebay Advanced Seach Page..................................undefined
+When Ich klicke auf dem Ebay Logo...........................................skipped
+Then Ich navigiere to Ebay Home Page........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
